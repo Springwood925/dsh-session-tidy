@@ -3,7 +3,15 @@
   "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "无感会话整理：定时把 N 天没动过的会话自动归档（只归档不删除）。阈值与规则可在插件详情页直接调整。",
+  "description": "DSH plugin: silently archives stale sessions, dedupes rotated copies, backs up before archiving, and prunes idle workspace registrations. Configure from the plugin detail page.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "session",
+    "archive",
+    "cleanup"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -15,8 +23,15 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md",
+    "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springwood925/dsh-session-tidy.git"
+  },
+  "license": "MIT",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
