@@ -1,0 +1,12 @@
+- insert:
+    - id: dsh-session-tidy
+      name: '@local/dsh-session-tidy'
+      config:
+        enabled: true
+        days: 30
+        intervalHours: 6
+        runOnStart: true
+        keepPinned: true
+        keepLive: true
+        onlyCwdPrefix: ''
+        dryRun: false

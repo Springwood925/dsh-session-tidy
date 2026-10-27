@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Auto-Tidy",
+    "description": "Runs silently: periodically archives sessions with no activity for N days (archive only, never deletes; reversible)."
+  }
+}
